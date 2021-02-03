@@ -1,0 +1,19 @@
+body {
+    background-color: rgb(193, 194, 194);
+  }
+
+  div{
+      margin-left : 10%;
+  }
+.label
+{
+    margin-left: 15%;
+}
+.labeli{
+    margin-right:0%;
+}
+.btn
+{
+     margin-left: 30%;
+     background-color: aqua;
+}

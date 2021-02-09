@@ -1,0 +1,132 @@
+@import 'utilities.css';
+:root {
+    --primary: #90ccce;
+    --dark: #161616;
+    --pure: #ffffff;
+    --ternary: #898989;
+    --light: #4f0961;
+    --logo: rgb(236, 218, 157);
+}
+
+body {
+    font-family: sans-serif;
+}
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    -webkit-font-smoothing: antialiased;
+}
+
+header {
+    background: var(--logo);
+}
+
+.container {
+    max-width: 1152px;
+    padding: 0 15px;
+    margin: 0 auto;
+}
+
+header nav .left a {
+    color: var(--pure);
+    margin-right: 2rem;
+    text-transform: uppercase;
+    transition: all.3s ease;
+}
+
+header nav .left a:hover {
+    color: var(--primary);
+}
+
+header nav {
+    padding: .01rem 0;
+}
+
+.logo img {
+    width: 200px;
+}
+
+h1 {
+    color: var(--pure);
+    text-transform: uppercase;
+    padding: 1rem 2rem;
+    align-items: center;
+    font-size: 1rem;
+}
+
+.mid {
+    background-color: rgb(185, 136, 233);
+}
+
+.mleft img {
+    width: 20rem;
+}
+
+.mright {
+    background-image: url("/images/Untitled-logo.png");
+    /* background-color: rgba(58, 185, 236, 0.521);*/
+    height: 320px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-color: #bdaf8f;
+    padding: 1rem 2rem;
+}
+
+.mright p {
+    color: #161616;
+}
+
+footer {
+    background-color: var(--ternary);
+}
+
+footer nav {
+    padding: .5rem 0;
+}
+
+footer nav .right {
+    margin-left: 65rem;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-right: 5rem;
+}
+
+.Final h1 {
+    color: var(--dark);
+    font-family: inherit;
+    font-size: .8rem;
+    text-align: center;
+}
+
+.Final {
+    background-color: #7c0a99;
+}
+
+.Final nav .left a {
+    color: var(--pure);
+    margin-right: 5rem;
+    text-transform: uppercase;
+    transition: all.3s ease;
+    padding: 0 1rem;
+}
+
+.Final nav .con a {
+    text-align: center;
+    color: rgb(162, 194, 122);
+    margin-right: 1rem;
+    text-transform: uppercase;
+    transition: all.3s ease;
+    padding: 0 1rem;
+}
+
+.Final nav .con a:hover {
+    background: transparent;
+    border-color: var(--primary);
+    color: var(--primary);
+}
+
+.Final nav .con {
+    margin-left: 50rem;
+}

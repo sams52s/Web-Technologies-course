@@ -1,0 +1,68 @@
+.footer {
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background: linear-gradient(91.35deg, rgba(82, 87, 235, 0.767) 1.33%, rgba(6, 33, 83, 0.959) 99.3%);
+    display: flex;
+    height: 18.5rem;
+}
+
+
+/*By using , we can css more then one div together*/
+
+.ourteam,
+.contact {
+    width: 370px;
+    height: auto;
+    left: 44px;
+    font-family: Redressed;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 24px;
+    line-height: 10px;
+    color: #b1a6a6ef;
+}
+
+.ourteam h3 {
+    float: left;
+    color: #6b6b6aef;
+}
+
+.cp {
+    padding: 0.02px;
+    margin-top: 99%;
+    background-color: rgba(10, 5, 53, 0.856)
+}
+
+.cp p {
+    color: rgb(219, 230, 200);
+    text-align: center;
+    float: center;
+}
+
+.right .contact {
+    color: #c5bebeef;
+}
+
+.right .icone img {
+    width: 42px;
+    height: 47px;
+    left: 529px;
+    top: 113px;
+    padding: 2rem;
+    margin-top: 3rem;
+}
+
+.details {
+    width: 343px;
+    height: 134px;
+    left: 53px;
+    top: 42px;
+    font-family: Lobster;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 30px;
+    color: rgba(0, 0, 0, 0.84);
+    text-align: center;
+}

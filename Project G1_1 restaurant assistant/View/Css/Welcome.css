@@ -1,0 +1,83 @@
+.nav {
+    font-family: Redressed;
+}
+
+.top {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+}
+
+body {
+    background-image: url(./Img/316911.jpg);
+}
+
+.topright {
+    color: rgba(240, 218, 120, 0.904);
+    text-align: right;
+    font-size: 25px;
+    margin-right: 20px;
+    padding: 2px;
+}
+
+.topleft {
+    color: rgba(240, 218, 120, 0.904);
+}
+
+.welcome {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+}
+
+.name {
+    font-size: 35px;
+    color: hsla(160, 100%, 75%, 0.87);
+    margin-left: 13rem;
+}
+
+.name i {
+    color: rgba(236, 217, 134, 0.904);
+    margin-left: 4rem;
+}
+
+.description {
+    font-family: Lobster;
+}
+
+.descriptionQ {
+    color: hsla(160, 64%, 74%, 0.87);
+    margin-left: -12rem;
+    font-size: 20px;
+}
+
+.descriptionA {
+    color: rgba(240, 218, 120, 0.904);
+    margin-left: -12rem;
+    font-size: 22px;
+}
+
+.btn {
+    width: 150px;
+    height: 49px;
+    border: none;
+    outline: none;
+    border-radius: 48px;
+    cursor: pointer;
+    background-color: #20dbc2;
+    color: #fff;
+    text-transform: uppercase;
+    font-weight: 600;
+    margin: 10px 0;
+    transition: all 0.5s;
+    text-align: center;
+    float: right;
+}
+
+.btn.transparent {
+    margin: 0;
+    background: none;
+    border: 2px solid #fff;
+    width: 130px;
+    height: 41px;
+    font-weight: 600;
+    font-size: 0.8rem;
+}

@@ -13,6 +13,7 @@
     <div class="head">
         <?php
     include '../Commonfiles./Header.php';
+    include '../../Controller./RegistrationControl.php';
     ?>
     </div>
     <main>
@@ -41,7 +42,6 @@
                         <a href="../Home.php">
                             <h3> Home</h3>
                         </a>
-
                     </div>
                     <div class="link">
                         <i class="fas fa-user-minus"></i>
@@ -49,11 +49,9 @@
                             <h3> Deleteprofile</h3>
                         </a>
                     </div>
-
                 </div>
                 <div class="pro">
                     <h3>We Suggest <br>We Care <br>Every BIte is fair.</h3>
-
                 </div>
             </div>
             <div class="Right">
@@ -86,11 +84,7 @@
                                 <input type="Radio" id="u2" /> Customer <br>
                             </div>
                             <input type="submit" class="btn" value="Sign up" />
-
-
-
                         </div>
-
                     </div>
                     <div class="card">
                         <i class="fas fa-street-view"></i>
@@ -98,7 +92,6 @@
                             <h2>Address</h2>
                             <input type="text" placeholder="Address" />
                         </div>
-
                     </div>
                 </div>
             </div>

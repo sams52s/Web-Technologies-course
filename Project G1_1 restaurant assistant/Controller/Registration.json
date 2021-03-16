@@ -1,0 +1,26 @@
+[{
+        "Username": "Toufiq",
+        "email": "sams52tas@gmail.com",
+        "password": "123456789%",
+        "dateOfBirth": "1998-12-08",
+        "Phone": "01750096696",
+        "Address": "Road 5,Bashundhara.Dhaka"
+    },
+    {
+        "Username": "ssssss",
+        "email": "sams52tas@gmail.com",
+        "password": "123456789@",
+        "dateOfBirth": "1998-12-08",
+        "Phone": "00000",
+        "Address": "Road 5,Bashundhara.Dhaka"
+    },
+    {
+        "Username": "saaa",
+        "email": "asdasd@gmail.com",
+        "password": "12345678$",
+        "dateOfBirth": "1998-12-08",
+        "Phone": "0563518768",
+        "Address": "Road 5,Bashundhara.Dhaka"
+    }
+
+]

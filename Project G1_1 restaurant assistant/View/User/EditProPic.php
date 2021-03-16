@@ -7,6 +7,14 @@
     <title>Edit Profile Picture</title>
     <link rel="stylesheet" href="../Css/Home.css" />
     <script src="https://kit.fontawesome.com/64d58efce2.js" crossorigin="anonymous"></script>
+    <Style>
+    fieldset {
+        padding: 2rem;
+        background: none;
+        block-size: auto;
+        border: 2px solid;
+    }
+    </Style>
 </head>
 
 <body>
@@ -41,7 +49,6 @@
                         <a href="../Home.php">
                             <h3> Home</h3>
                         </a>
-
                     </div>
                     <div class="link">
                         <i class="fas fa-user-minus"></i>
@@ -49,11 +56,9 @@
                             <h3> Log Out</h3>
                         </a>
                     </div>
-
                 </div>
                 <div class="pro">
                     <h3>We Suggest <br>We Care <br>Every BIte is fair.</h3>
-
                 </div>
             </div>
             <div class="Right">
@@ -67,14 +72,30 @@
                     </div>
 
                 </div>
+
                 <div class="card">
                     <div class="card-info">
-                        <input type="file" name="pro pic" id="propic">
                         <div class="input-field">
                             <i class="fas fa-lock"></i>
                             <input type="password" placeholder="Password" />
                         </div>
-                        <input type="submit" class="btn" value="Change Profile Picture " />
+
+                        <div class="right">
+                            <form action="../../Controller/EditProPicController.php" method="post"
+                                enctype="multipart/form-data">
+                                <!--after clicking submit btn this page will be loaded..-->
+                                <fieldset>
+                                    <legend><B>Select picture</B></legend> <br>
+                                    <!--fieldset is just to make a separate sectin and legend for naming this fieldset. div is for separate that img for editing..-->
+                                    <div class="upPic">
+                                        <input type="file" name="fileToUpload" id="fileToUpload">
+                                    </div>
+                                    <br>
+                                    <hr>
+                                    <input type="submit" class="btn" value="Change Profile Picture " />
+                                </fieldset>
+                            </form>
+                        </div>
                     </div>
                 </div>
             </div>

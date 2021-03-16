@@ -16,7 +16,8 @@
     <div class="head">
         <?php
     include '../Commonfiles./Header.php';
-    include '../../Control./RegistrationControl.php'
+    include '../../Controller./RegistrationControl.php';
+    include '../../Controller./LoginControl.php';
     //Conecting Control to this view side..
     ?>
     </div>
@@ -134,7 +135,7 @@
             </div>
         </div>
     </div>
-    <script src="../../Control/login.js"></script>
+    <script src="../../Controller/login.js"></script>
     <!--using js for littile amount. just for making a smoth trasection and conection between signup and sign side.
      without this our sign in and sign up btn will not work. -->
 </body>

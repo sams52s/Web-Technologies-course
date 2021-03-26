@@ -1,0 +1,17 @@
+.regfield {
+    background-color: RGBA(124, 145, 145, 60%);
+    padding: 5rem;
+    align-items: center;
+    height: auto;
+}
+
+fieldset {
+    background-color: RGBA(0, 100, 220, 40%);
+}
+
+table {
+    padding: 3rem;
+    margin-left: 6rem;
+    font-family: 'Ubuntu Condensed', sans-serif;
+    font-size: 20px;
+}

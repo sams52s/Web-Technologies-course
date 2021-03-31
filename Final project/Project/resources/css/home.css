@@ -1,0 +1,8 @@
+.home-1st-photo-slide {
+    height: 100%;
+    width: 100%;
+}
+
+.home-1st-photo-slide img {
+    max-height: 35rem;
+}

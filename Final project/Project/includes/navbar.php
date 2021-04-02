@@ -32,7 +32,7 @@
                             class="sr-only">(current)</span></a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="#">Q&A</a>
+                    <a class="nav-link" href="#">FAQ</a>
                 </li>
                 <li class="nav-item">
                     <a class="nav-link"

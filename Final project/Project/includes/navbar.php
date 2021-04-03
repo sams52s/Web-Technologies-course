@@ -1,12 +1,9 @@
 <style>
 .nav-right {
-
     width: 100%;
-
     display: flex;
 
 }
-
 
 .nav-name {
     margin-left: 1%;
@@ -31,7 +28,7 @@
                     <a class="nav-link" href="http://localhost/Final%20project/Project/view/about.php">About <span
                             class="sr-only">(current)</span></a>
                 </li>
-                <li class="nav-item">
+                <li class="nav-item" data-toggle="tooltip" data-placement="top" title="Some Answer of your questions">
                     <a class="nav-link" href="#">FAQ</a>
                 </li>
                 <li class="nav-item">
@@ -43,7 +40,8 @@
                 <li class="nav-item">
                     <div class="after-login">
                 <li class="nav-item">
-                    <a class="nav-link" href="#">Restaurant</a>
+                    <a class="nav-link"
+                        href="http://localhost/Final%20project/Project/view/restaurantdashdashbord.php">Restaurant</a>
                 </li>
                 <li class="nav-item">
                     <a class="nav-link" href="#">Food</a>

@@ -66,7 +66,6 @@ require '../controller/linkings.php'
         </div>
         <div class="downPart">
             <div class="row">
-
                 <div class="col-sm-5 col-md-6">
                     <div class="h-txt"
                         style="text-align: center; font-family: 'Yatra One', cursive; margin: 10rem; font-size:35px;">
@@ -134,7 +133,6 @@ require '../controller/linkings.php'
                         </p>
                         <a class="btn btn-outline-success" href="#" role="button"
                             style="font-size:25px;">Registration</a>
-
                     </div>
                 </div>
             </div>

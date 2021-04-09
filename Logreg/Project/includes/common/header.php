@@ -109,3 +109,7 @@
 </body>
 
 </html>
+<?php 
+require_once '../../includes/common/links.php';
+require_once '../../includes/common/navbar.php';
+?>

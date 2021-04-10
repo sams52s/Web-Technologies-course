@@ -31,5 +31,8 @@ function test_input($data) {
 if($user->validation()==0)
 {
      $user->json();
+     session_start();
+     $_SESSION["SuserName"]="$userName";
+
 }
 ?>

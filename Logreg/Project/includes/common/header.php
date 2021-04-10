@@ -89,7 +89,18 @@
                 <div class="hright">
                     <div class="hcontent">
                         <i class="fas fa-user">
-                            <a href="http://localhost/Logreg/Project/view/users/login.php">Login</a></i>
+                            <?php 
+                        $log="Login" ;
+                        if(isset($_SESSION["SuserName"]))
+                        {
+                            $log=$_SESSION["SuserName"] ;
+                            echo" <a href='http://localhost/Logreg/Project/view/users/logOut.php'>$log</a>";
+                        }else{
+                            echo" <a href='http://localhost/Logreg/Project/view/users/login.php'>$log</a>";
+                        }
+                        ?>
+
+                        </i>
                         <i class="fas fa-phone-square-alt">
                             <a href="">Contact us</a></i>
                         <i class="fas fa-house-damage">

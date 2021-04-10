@@ -29,7 +29,7 @@
                 </li>
                 <br>
                 <li class="nav-item">
-                    <a class="nav-link" href="#">Review</a>
+                    <a class="nav-link" href="https://localhost/Logreg/Project/view/users/viewprofile.php">Review</a>
                 </li>
                 <li class="nav-item">
                     <a class="nav-link disabled" href="#" tabindex="-1" aria-disabled="true">Get started</a>

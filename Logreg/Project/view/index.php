@@ -9,8 +9,7 @@
     <link rel="stylesheet" href="../includes/css/index.css">
 </head>
 <?php 
-require_once '../includes/common/links.php';
-require '../includes/common/header.php';
+//require_once '../includes/common/header.php';
 $s="sams";
 $g="Hey there ".$s." You are welcome here. <br> We have a somthing for you. <br> Like to try?";
 ?>

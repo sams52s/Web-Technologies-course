@@ -1,7 +1,6 @@
 <?php 
 class regModel {
     public $flag=0;
-    public $id=1;
     private $Name , $email , $gender , $add , $userName,$pass, $cpass,$phone,$dob,$userType;
     //public  $nameErr =$userNameErr =$emailErr =$passErr=$cpassErr=$phoneErr="";
       public function __construct($Name , $email , $gender , $add , $userName,$pass, $cpass,$phone,$dob,$userType)
@@ -36,6 +35,16 @@ class regModel {
             $this->flag=1;
             $email="";
           }
+          $objs =json_decode(file_get_contents('http://localhost/Logreg/Project/includes/json/profile.json'),true);//decode the json file.
+//print_r($obj);
+
+foreach($objs as $obj)
+{
+    if($obj["email"]==$obj["email"])
+                {
+                    $this->flag=1;
+                }
+}
         if(strlen($this->pass)<6)
         {
             $this->flag=1;
@@ -105,6 +114,7 @@ class regModel {
        $array_data = json_decode($current_data, true);  //json data decoding here. json decode and encode data so 1st decode and save data.
        $extra = array// giving data as array life set of data.
        (  
+           
         
             'userType'                 =>    $this ->userType ,
             'name'               =>    $this ->Name ,

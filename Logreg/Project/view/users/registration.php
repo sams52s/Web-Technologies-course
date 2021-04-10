@@ -10,7 +10,9 @@
 </head>
 <?php 
 require_once '../../includes/common/header.php';
+
 include '../../model/registrationmodel.php';
+
 ?>
 
 <body>

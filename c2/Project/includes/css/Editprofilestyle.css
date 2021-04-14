@@ -1,0 +1,18 @@
+.epb {
+    background: rgb(0, 212, 255);
+    background: linear-gradient(90deg, rgb(186, 234, 243) 11%, rgba(0, 190, 228, 1) 20%, rgba(107, 139, 140, 0.8883928571428571) 35%, rgba(0, 0, 0, 0.582) 46%, rgba(39, 77, 109, 0.911) 56%, rgba(198, 218, 238, 0.938) 90%);
+    text-align: center;
+}
+
+.editp {
+    padding-top: 4%;
+    padding-bottom: 4%;
+}
+
+.propic {
+    padding-top: 2%;
+}
+
+.editdtls button {
+    margin-top: 1.5% !important;
+}

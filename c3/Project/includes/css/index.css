@@ -1,0 +1,36 @@
+.welcome {
+    font-size: 30px;
+    text-align: center;
+    font-family: Lobster;
+}
+
+.lineOne {
+    background-color: aquamarine;
+    font-size: 38px;
+    color: brown;
+}
+
+.line2 {
+    height: 30rem;
+    color: rgba(9, 15, 100, 0.904);
+}
+
+.btn {
+    margin-top: 3rem;
+}
+
+.btn a,
+.log a,
+.reg a {
+    font-size: 40px;
+}
+
+.defore_login {
+    display: flex;
+    justify-content: center;
+}
+
+.log,
+.reg {
+    margin: 10vh;
+}

@@ -95,7 +95,6 @@ include_once '../../includes/database/dbcon.php'; ?>
 </head>
 
 <body id="all">
-
     <div class="mood" id="mood">
         <button id="drk" onclick="dark()" class="btn btn-outline-dark">Dark mode</button>
         <button id=" white" onclick="white()" class="btn btn-outline-light">Normal</button>
@@ -162,16 +161,13 @@ include_once '../../includes/database/dbcon.php'; ?>
             echo "<br>";
             echo "</p>";
             echo "<hr>";
-
         }
     }
     else{
         echo "there are no data";
     }
     ?>
-
         </div>
-
     </div>
     <div class="btn">
         <button class="btn btn-outline-success" id="user" onclick="myfg()">Show more user</button>
@@ -179,15 +175,9 @@ include_once '../../includes/database/dbcon.php'; ?>
         <button class="btn btn-outline-success" id="adminbtn" onclick="myfg()">Show more admin</button>
         <button class="btn btn-outline-danger" id="adminbtnd" onclick="myf()">less view admin</button>
     </div>
-
-
-
-
 </body>
 <?php 
-
 require_once '../../includes/common/footer.php';
-
 ?>
 
 </html>

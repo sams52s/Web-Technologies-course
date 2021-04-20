@@ -25,6 +25,7 @@ require_once '../../includes/common/navbar.php';
 
 <body>
     <div class="addmin">
+
         <div class="del">
             <form action="../../controller/admincontroller.php" method="post">
                 <div class="inputfield">
@@ -66,7 +67,6 @@ require_once '../../includes/common/navbar.php';
                                 <p id="errorpass"></p>
                             </td>
                         </tr>
-
                         <br>
                         <tr>
                             <td></td>

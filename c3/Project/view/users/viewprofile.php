@@ -45,8 +45,8 @@ include '../../model/registrationmodel.php';
         </div>
     </div>
 
-    <button class="btn btn-dark" name="customers" onclick="showCustomer()" value="btn">View all user
-        info</button>
+    <a class="btn btn-dark" href="Viewdtls.php" role="button">View all user
+        info</a>
     <div class="vtop">
         <div class="propic">
             <img src="#" alt="No profile picture is set.">

@@ -18,11 +18,6 @@ include '../../model/registrationmodel.php';
     <div class="top">
         <h1>ADD USSER</h1>
     </div>
-    <!--<div class="err">
-        <?php/*  require_once '../../controller/registrationcontroller.php';*/?>
-
-    </div>-->
-
     <div class="regform">
         <form action="../../controller/registrationcontroller.php" method="post">
             <div class="inputfield">
@@ -35,7 +30,7 @@ include '../../model/registrationmodel.php';
                                     placeholder="Full name of yours">
                             </div>
                         </td>
-                        <td>Name can not contain anything without alphabets (a-z,A-Z).</td>
+                        <!--<td>Name can not contain anything without alphabets (a-z,A-Z).</td>-->
                         <td>
                             <p id="errorname"> </p>
                         </td>
@@ -47,7 +42,7 @@ include '../../model/registrationmodel.php';
                                 <input type="text" id="userName" name="userName" placeholder="Surname of yours">
                             </div>
                         </td>
-                        <td>Surname must be more then two latters.</td>
+                        <!--<td>Surname must be more then two latters.</td>-->
                         <td>
                             <p id="erroruname"></p>
                         </td>
@@ -59,7 +54,7 @@ include '../../model/registrationmodel.php';
                                 <input type="email" id="email" name="email" placeholder="email@">
                             </div>
                         </td>
-                        <td>Have to be valid email address. You can't use same email twice.</td>
+                        <!--<td>Have to be valid email address. You can't use same email twice.</td>-->
                         <td>
                             <p id="erroremail"></p>
                         </td>
@@ -71,8 +66,8 @@ include '../../model/registrationmodel.php';
                                 <input type="password" id="pass" name="pass" placeholder="Password">
                             </div>
                         </td>
-                        <td>Have to be more then 8 character. Password must contain at least one of the special
-                            characters (@, #, $,%)</td>
+                        <!--<td>Have to be more then 8 character. Password must contain at least one of the special
+                            characters (@, #, $,%)</td>-->
                         <td>
                             <p id="errorpass"></p>
                         </td>
@@ -84,7 +79,7 @@ include '../../model/registrationmodel.php';
                                 <input type="password" id="cpass" name="cpass" placeholder="Confirm password">
                             </div>
                         </td>
-                        <td>Have to be same as password you have given.</td>
+                        <!--<td>Have to be same as password you have given.</td>-->
                         <td>
                             <p id="errorcpass"></p>
                         </td>
@@ -96,7 +91,7 @@ include '../../model/registrationmodel.php';
                                 <input type="tel" id="phone" name="phone" placeholder="01**********">
                             </div>
                         </td>
-                        <td>start with 01. Have to be bangladeshi number.</td>
+                        <!-- <td>start with 01. Have to be bangladeshi number.</td>-->
                         <td>
                             <p id="errorphne"></p>
                         </td>
@@ -106,7 +101,7 @@ include '../../model/registrationmodel.php';
                         <td>
                             <input type="text" id="add" name="add" placeholder="Address" required>
                         </td>
-                        <td>Your present address</td>
+                        <!--<td>Your present address</td>-->
                         <td>
                             <p id="erroradd"></p>
                         </td>
@@ -118,7 +113,7 @@ include '../../model/registrationmodel.php';
                                 <input type="date" id="dob" name="dob" required>
                             </div>
                         </td>
-                        <td>Enter your birth day</td>
+                        <!--<td>Enter your birth day</td>-->
                         <td>
                             <p id="errordob"></p>
                         </td>
@@ -129,7 +124,7 @@ include '../../model/registrationmodel.php';
                             <input type="radio" id="gender" name="gender" value="female"> Female
                             <input type="radio" id="gender" name="gender" value="other"> Other
                         </td>
-                        <td>Please select your gender</td>
+                        <!--<td>Please select your gender</td>-->
                         <td>
                             <p id="errorgen"></p>
                         </td>
@@ -140,7 +135,7 @@ include '../../model/registrationmodel.php';
                             <input type="radio" id="userType" name="userType" value="admin"> admin <br>
                             <input type="radio" id="userType" name="userType" value="rowner"> Restaurant Owner<br>
                         </td>
-                        <td>Please select your User Type</td>
+                        <!--<td>Please select your User Type</td>-->
                         <td>
                             <p id="errorut"></p>
                         </td>
@@ -151,7 +146,7 @@ include '../../model/registrationmodel.php';
                 <br>
                 <input onclick="myFunction()" type="checkbox" id="agree" name="agree" value="agree">
                 <label for="agree"> I agree with all terms and conditions</label><br>
-                <input onclick="un()" type="checkbox" id="sm" name="sm" value="sm">
+                <input onclick="gfg()" type="checkbox" id="sm" name="sm" value="sm">
                 <label for="sm"> I accept mails</label><br>
             </div>
             <div class="btn">
@@ -180,19 +175,41 @@ include '../../model/registrationmodel.php';
         var url = "https://localhost/c2/Project/includes/Javascript/registration.js" + params.toString();
         location.href = url;
     }
-    /*sessionStorage.setItem("userNamet", userName);
-    sessionStorage.setItem("name", name);
-    sessionStorage.setItem("email", email);
-    sessionStorage.setItem("pass", pass, "cpass", cpass);
-    sessionStorage.setItem("phone", phone);
-    sessionStorage.setItem("add", add);
-    sessionStorage.setItem("dob", dob);
-    location.href = "https://localhost/c2/Project/includes/Javascript/registration.js";*/
-
     function un() {
         document.getElementById("erroruname").innerHTML = userName;
     }-->
     <script>
+    var down = document.getElementById("errordob");
+
+    function gfg() {
+        var date =
+            document.getElementById("dob").value;
+        var inpDate = new Date(date);
+        var currDate = new Date();
+
+        if (inpDate.setHours(0, 0, 0, 0) ==
+            currDate.setHours(0, 0, 0, 0)) {
+            down.innerHTML =
+                "The input date is today's date";
+            document.getElementById("errordob").style.background = "red";
+        } else {
+            if (inpDate.setHours(0, 0, 0, 0) >
+                currDate.setHours(0, 0, 0, 0)) {
+                down.innerHTML =
+                    "The input date is Not valid";
+                document.getElementById("errordob").style.background = "red";
+            } else {
+                if (inpDate.setHours(0, 0, 0, 0) <
+                    currDate.setHours(0, 0, 0, 0)
+                ) {
+                    down.innerHTML =
+                        "The input date is  18 yead old ok";
+                    document.getElementById("errordob").style.background = "green";
+                }
+            }
+        }
+    }
+
     function myFunction() {
         var userName = document.getElementById("userName").value;
         var unlenght = userName.length;
@@ -286,16 +303,11 @@ include '../../model/registrationmodel.php';
         } else {
             document.getElementById("myBtn").disabled = false;
         }
-
     }
     </script>
-
 </body>
-
 <?php 
-
 require_once '../../includes/common/footer.php';
-
 ?>
 
 </html>

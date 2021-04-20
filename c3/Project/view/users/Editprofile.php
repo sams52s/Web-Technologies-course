@@ -90,7 +90,6 @@ require_once '../../includes/common/navbar.php';
                 </div>
             </div>
         </div>
-
         <script>
         document.getElementById("edtnamef").hidden = true;
         document.getElementById("edtunamef").hidden = true;

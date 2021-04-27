@@ -1,0 +1,43 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+#game {
+    width: 400px;
+    height: 500px;
+    border: 1px solid black;
+    margin: auto;
+}
+
+#character {
+    width: 20px;
+    height: 20px;
+    background-color: red;
+    border-radius: 50%;
+    position: relative;
+    /*so that char can move*/
+    top: 440px;
+    left: 190px;
+    z-index: 10000;
+    /*so character will be top alwyas*/
+}
+
+.block {
+    width: 400px;
+    height: 20px;
+    background-color: black;
+    position: relative;
+    top: 100px;
+    margin-top: -20px;
+}
+
+.hole {
+    width: 40px;
+    height: 20px;
+    background-color: rgb(207, 243, 237);
+    position: relative;
+    top: 100px;
+    border-radius: 50%;
+    margin-top: -20px;
+}

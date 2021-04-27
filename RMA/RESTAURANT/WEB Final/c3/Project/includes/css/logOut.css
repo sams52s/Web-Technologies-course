@@ -1,0 +1,9 @@
+.logOut {
+    height: 25rem;
+    text-align: center;
+    padding: 10rem;
+    font-family: 'Open Sans', sans-serif;
+    color: rgb(77, 12, 5);
+    background: rgb(0, 212, 255);
+    background: linear-gradient(90deg, rgb(186, 234, 243) 11%, rgba(0, 190, 228, 1) 20%, rgba(107, 139, 140, 0.8883928571428571) 35%, rgb(116, 172, 224) 46%, rgba(59, 128, 184, 0.932) 56%, rgba(198, 218, 238, 0.938) 90%);
+}

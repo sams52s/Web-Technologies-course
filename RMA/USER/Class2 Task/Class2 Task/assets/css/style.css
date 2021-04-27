@@ -1,0 +1,175 @@
+/********** Basic Format **********/
+
+*,
+*::after,
+*::before {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+a {
+  display: inline-block;
+  text-decoration: none;
+  color: #e84393;
+}
+
+img {
+  width: 150px;
+}
+
+ul {
+  list-style: none;
+  padding: 0;
+}
+
+/********** Form Input **********/
+
+input.inp {
+  padding: 10px;
+  width: 300px;
+  border-radius: 5px;
+  border: 3px solid black;
+  outline: none;
+}
+
+.error:active,
+.error:focus,
+.error {
+  border : 3px solid red !important;
+  outline: none;
+}
+
+.error-message {
+  min-width: 300px;
+  color: red;
+}
+
+
+/********** Menu **********/
+
+.menu ul li {
+  display: inline-block;
+}
+
+.menu ul li a {
+  padding: 10px 20px;
+  font-size: 20px;
+}
+
+.main-title {
+  text-align: center;
+  color: #e84393;
+}
+
+/********** Header and Footer Section **********/
+
+header,
+footer {
+  /* width: 70%;
+  margin: 0 auto; */
+  background-color: #34495e;
+  padding: 20px;
+  text-align: center;
+  color: white;
+}
+
+/********** Main Section **********/
+
+main {
+  width: 70%;
+  margin: 10px auto;
+  min-height: 300px;
+  border: 1px solid black;
+  padding: 5px;
+}
+ 
+.clearfix::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+table {
+  width: 80%;
+  margin: 20px auto 0 auto;
+  text-align: center;
+}
+
+table tr td {
+  padding: 10px 10px;
+}
+
+table tr td:first-child {
+  text-align: right;
+}
+
+table tr td:last-child {
+  text-align: left;
+}
+
+/********** Basic Button **********/
+
+.btn {
+  padding: 10px 20px;
+  background-color: green;
+  border: none;
+  border-radius: 3px;
+  color: white;
+  font-size: medium;
+}
+
+/********** Upload profile pictures **********/
+
+.profile-info,
+.file-upload {
+  width: 50%;
+  float: left;
+}
+
+.profile-pic,
+.file-info {
+  width: 50%;
+  float: left;
+}
+
+
+/********** Error and Success Message **********/
+
+
+.errors-list {
+  width: 90%;
+  margin: 0 auto;
+  background-color: #d63031;
+  color: white;
+  font-weight: bold;
+}
+
+.success {
+  width: 90%;
+  margin: 0 auto;
+  background-color: #27ae60;
+  color: white;
+  font-weight: bold;
+}
+
+/********** View Management Profile **********/
+
+.view-mngmnt {
+  width: 95%;
+}
+
+.view-mngmnt th {
+  padding: 10px 4px;
+}
+
+.view-mngmnt,
+.view-mngmnt th,
+.view-mngmnt td {
+  border: 1px solid black;
+  border-collapse: collapse;
+}

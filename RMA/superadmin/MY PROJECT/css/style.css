@@ -1,0 +1,67 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background-image: linear-gradient(blue, lime);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+h2 {
+  text-align: center;
+  margin-bottom: 10px;
+  font-size: 25px;
+}
+.container {
+  background-color: #fff;
+  width: 400px;
+  padding: 20px;
+}
+.form-control {
+  margin-bottom: 10px;
+}
+.form-control label {
+  display: block;
+  color: #777;
+  margin-bottom: 5px;
+}
+.form-control input {
+  display: block;
+  width: 100%;
+  padding: 10px;
+  font-size: 16px;
+}
+.form-control input:focus {
+  outline: none;
+  border: 2px solid #777;
+}
+button {
+  width: 100%;
+  outline: none;
+  border: none;
+  font-size: 16px;
+  color: white;
+  background-color: blue;
+  cursor: pointer;
+  padding: 10px;
+}
+.form-control small {
+  visibility: hidden;
+  color: red;
+}
+.form-control.error small {
+  visibility: visible;
+}
+.form-control.error input {
+  border: 2px solid red;
+}
+.form-control.success input {
+  border: 2px solid green;
+}

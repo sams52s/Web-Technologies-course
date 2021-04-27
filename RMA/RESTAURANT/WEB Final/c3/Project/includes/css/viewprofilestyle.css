@@ -1,0 +1,15 @@
+.showinfo {
+    margin-top: 2%;
+}
+
+.vtop {
+   background-color: azure;
+    display: flex;
+    justify-content: center;
+    padding: 2%;
+    font-family: Lobster;
+}
+
+.updateprofile {
+    margin-left: 50%;
+}
